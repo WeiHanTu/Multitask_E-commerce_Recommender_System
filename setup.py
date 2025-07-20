@@ -24,11 +24,11 @@ setup(
     description="Clippy AdaGrad optimizer for multitask learning in recommender systems",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/weihantu/clippy-adagrad",
+    url="https://github.com/WeiHanTu/Multitask_E-commerce_Recommender_System",
     project_urls={
-        "Bug Reports": "https://github.com/weihantu/clippy-adagrad/issues",
-        "Source": "https://github.com/weihantu/clippy-adagrad",
-        "Documentation": "https://github.com/weihantu/clippy-adagrad/tree/main/docs",
+        "Bug Reports": "https://github.com/WeiHanTu/Multitask_E-commerce_Recommender_System/issues",
+        "Source": "https://github.com/WeiHanTu/Multitask_E-commerce_Recommender_System",
+        "Documentation": "https://github.com/WeiHanTu/Multitask_E-commerce_Recommender_System/tree/main/docs",
     },
     packages=find_packages(),
     classifiers=[

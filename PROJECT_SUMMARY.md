@@ -271,10 +271,10 @@ Features:
 
 ## 📞 Contact and Support
 
-- **Repository**: [GitHub Repository](https://github.com/weihantu/clippy-adagrad)
-- **Documentation**: [Comprehensive Docs](https://github.com/weihantu/clippy-adagrad/tree/main/docs)
-- **Issues**: [GitHub Issues](https://github.com/weihantu/clippy-adagrad/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/weihantu/clippy-adagrad/discussions)
+- **Repository**: [GitHub Repository](https://github.com/WeiHanTu/Multitask_E-commerce_Recommender_System)
+- **Documentation**: [Comprehensive Docs](https://github.com/WeiHanTu/Multitask_E-commerce_Recommender_System/tree/main/docs)
+- **Issues**: [GitHub Issues](https://github.com/WeiHanTu/Multitask_E-commerce_Recommender_System/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/WeiHanTu/Multitask_E-commerce_Recommender_System/discussions)
 
 ---
 
