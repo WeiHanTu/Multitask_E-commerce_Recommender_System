@@ -5,7 +5,7 @@ from torch.optim.optimizer import (Optimizer, _use_grad_for_differentiable, _get
 						_default_to_fused_or_foreach, _differentiable_doc, _foreach_doc, _maximize_doc)
 from typing import List, Optional
 
-__all__ = ["ClippyAdagrad", "clyppy_adagrad"]
+__all__ = ["ClippyAdagrad", "clippy_adagrad"]
 
 
 class ClippyAdagrad(Optimizer):

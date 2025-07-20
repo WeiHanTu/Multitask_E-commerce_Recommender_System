@@ -14,6 +14,25 @@ class SimpleModel(nn.Module):
 
 
 class TestClippyAdagrad:
+    def test_basic_functionality(self):
+        """Test basic functionality of ClippyAdagrad."""
+        model = SimpleModel()
+        optimizer = ClippyAdagrad(model.parameters(), lr=1e-2)
+        
+        # Simple forward and backward pass
+        x = torch.randn(5, 10)
+        y = torch.randn(5, 1)
+        
+        output = model(x)
+        loss = nn.MSELoss()(output, y)
+        
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+        
+        # If we reach here, the optimizer works
+        assert True
+    
     def test_initialization(self):
         """Test ClippyAdagrad optimizer initialization."""
         model = SimpleModel()
