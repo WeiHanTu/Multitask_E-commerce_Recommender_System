@@ -12,7 +12,10 @@ class AliExpressDataset(torch.utils.data.Dataset):
     """
 
     def __init__(self, dataset_path, n_rows=None):
-        data = pl.read_csv(dataset_path, n_rows=n_rows).to_numpy()[:, 1:]
+        if "test" in str(dataset_path):
+            data = pl.read_csv(dataset_path, n_rows=n_rows).to_numpy()[500000:505000, 1:]
+        else:
+            data = pl.read_csv(dataset_path, n_rows=n_rows).to_numpy()[:500000, 1:]
         self.categorical_data = data[:, :16].astype(int)
         self.numerical_data = data[:, 16: -2].astype(np.float32)
         self.labels = data[:, -2:].astype(np.float32)
